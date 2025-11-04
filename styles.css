@@ -1,0 +1,615 @@
+
+html {
+  background-color: #b9e192;
+}
+
+/* Navigation section */
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+  background-color: #5ba300;
+  margin: 0 0 20px 0;
+
+}
+
+nav li {
+  margin: 10px;
+}
+
+nav a {
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+}
+/* Adding space to the 2nd headers  */
+h1,
+h2,
+h3,
+p {
+  margin: 30px;
+}
+
+h1,
+h2 {
+  font-family: "Bodoni Moda SC", serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+h3 {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+p,
+#citations_list,
+.number_text,
+.text {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+
+}
+
+p {
+  letter-spacing: 1px;
+}
+
+h2~p {
+  padding-bottom: 10px;
+}
+
+#text4, #introduction, #text3 {
+  padding-top: 100px;
+}
+
+body {
+  margin: 0;
+}
+
+
+
+
+/* Container for my creations */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2em;
+  padding: 1em;
+  background-color: #b0b0ff;
+}
+
+.flex-container>div {
+  background-color: #454b90;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  justify-content: space-around;
+}
+
+
+
+.flex-items {
+  justify-content: center;
+
+}
+
+.flex-items:hover {
+  transform: scale(1.1)
+}
+
+a>img {
+  height: 234px;
+  width: auto;
+
+}
+
+img~p {
+  text-align: center;
+  text-decoration: none;
+}
+
+div>a {
+  text-decoration: none;
+  color: #5ba300;
+}
+
+
+
+
+
+
+
+
+/* History section */
+#img2 {
+  width: 350px;
+  height: 250px;
+  float: right;
+  display: flex;
+  margin-right: 5%;
+}
+
+#img2:hover {
+  transform: scale(1.1)
+}
+
+
+
+.logo {
+  display: flex;
+  margin: auto;
+  max-width: 50%;
+  height: auto;
+  border-radius: 25px;
+
+}
+
+
+/* Flower images and logo image section organization */
+
+.flower1,
+.flower2,
+.flower3,
+.flower4,
+.flower5,
+.flower6,
+.flower7,
+.flower8 {
+  cursor: pointer;
+}
+
+.flower1:active,
+.flower2:active,
+.flower3:active,
+.flower4:active,
+.flower5:active,
+.flower6:active,
+.flower7:active,
+.flower8:active {
+  animation: spin 0.5s;
+}
+
+
+.flower1,
+.flower2,
+.flower3,
+.flower4,
+.flower5,
+.flower6,
+.flower7,
+.flower8 {
+  width: 120px;
+  position: absolute;
+}
+
+.logo_images_container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-image: url(images/Lilac_shape_background.png);
+  margin-top: -30px;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-size: 60% 100%;
+}
+
+.flower1 {
+  top: 10px;
+  left: 10px;
+}
+
+.flower2 {
+  top: 10px;
+  right: 10px;
+}
+
+.flower3 {
+  bottom: 10px;
+  left: 10px;
+}
+
+.flower4 {
+  bottom: 10px;
+  right: 10px;
+}
+
+.flower5 {
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.flower6 {
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.flower7 {
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.flower8 {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Citations Section */
+
+#citations_container {
+  background-color: #b0b0ff;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+#citations_list {
+  text-align: center;
+}
+
+.citations_text,
+article a {
+  list-style-type: none;
+  text-decoration: none;
+
+  color: white;
+  padding: 7px;
+  max-width: 100%;
+
+}
+
+.citations_text:hover,
+article a:hover {
+  color: black;
+}
+
+.citations_text:active,
+article a:active {
+  color: #FDFD96;
+}
+
+#text2 {
+  padding-bottom: 2px;
+}
+
+/* Footer section */
+footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+
+}
+
+#text2,
+#text3,
+#text4 {
+  text-align: center;
+
+}
+
+
+
+
+/* About me section */
+#about_me_container {
+  padding-bottom: 450px;
+  max-width: 100%;
+  padding-top: 150px;
+
+ 
+
+}
+#img {
+  height: 250px;
+  width: 250px;
+  float: right;
+  display: flex;
+  margin-right: 5%;
+
+
+}
+
+
+#img:hover {
+  transform: scale(1.1)
+}
+
+#img {
+  cursor: pointer;
+}
+
+#img:active {
+  animation: spin 0.5s;
+}
+
+#text {
+
+  max-width: 70%;
+  float: left;
+  padding-right: 10%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Slide show section*/
+* {
+  box-sizing: border-box
+}
+
+.slideshow_images {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Slideshow container */
+.slideshow_container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.embroidery_slideshow {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+}
+
+/* Number text (1/15 etc) */
+.number_text {
+  color: #000000;
+  font-size: 50px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot_style {
+  text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* My creations customization page 1  */
+.project_img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+
+}
+
+.project_text {
+
+  max-width: 500px;
+  background-color: #b0b0ff;
+  padding-bottom: 200px;
+  border-radius: 25px;
+  color: white;
+
+}
+
+
+.project_info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2em;
+  padding: 1em;
+  padding-top: 150px;
+}
+
+
+
+
+
+
+
+
+/* Animation section as well as media section */
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Adding animations fade in and pulse */
+/* Animation that fades in when the website is loaded  */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+header ul {
+  animation: fadeIn 2s ease;
+}
+
+nav li:hover {
+  background-color: rgba(140, 243, 210, 0.802);
+  animation: pulse 2s infinite alternate;
+  border-radius: 25px;
+  padding: 15px;
+
+}
+
+/* Animation that makes it scale larger in size  */
+@keyframes pulse {
+  50% {
+    transform: scale(1.1);
+  }
+
+}
+
+/* Media Queries for larger screens (adjusting how it will look on a phone
+and other devices)*/
+@media (min-width: 768px) {
+  header ul {
+    padding: 20px;
+    margin: 30px 0;
+  }
+
+
+
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project_info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flower1,
+  .flower2,
+  .flower3,
+  .flower4,
+  .flower5,
+  .flower6,
+  .flower7,
+  .flower8 {
+    width: 60px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .flower1,
+  .flower2,
+  .flower3,
+  .flower4,
+  .flower5,
+  .flower6,
+  .flower7,
+  .flower8 {
+    width: 40px;
+  }
+  
+}
+
+@media (max-width: 999px) {
+  #text, #citations_container {
+    display: inline-flex;
+    flex-wrap: wrap;
+   
+  }
+}
